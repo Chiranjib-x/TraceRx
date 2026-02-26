@@ -1,0 +1,22 @@
+{
+  "name": "tracerx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@types/node": "^22.19.11",
+    "hardhat": "^2.22.3",
+    "typescript": "~5.8.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "web3.storage": "^4.5.5"
+  }
+}
