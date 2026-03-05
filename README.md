@@ -1,71 +1,38 @@
-TraceRx – Blockchain Medicine Traceability System
-TraceRx is a decentralized supply chain solution designed to eliminate counterfeit medications and ensure transparency from the manufacturer to the end consumer. Built on the Polygon Amoy Testnet, it leverages immutable smart contracts to track the lifecycle of pharmaceutical products.
+#  TraceRx – Blockchain Medicine Traceability System
 
-Live Demo
+**TraceRx** is a decentralized supply chain solution designed to eliminate counterfeit medications and ensure transparency from the manufacturer to the end consumer. Built on the **Polygon Amoy Testnet**, it leverages immutable smart contracts to track the lifecycle of pharmaceutical products.
 
-Key Features
-Immutable Tracking: Every step of the medicine's journey is recorded on the blockchain.
+##  [Live Demo](https://trace-rx.vercel.app)
 
-Anti-Counterfeit: Real-time verification of drug authenticity for consumers and retailers.
+---
 
-Role-Based Access: Specialized dashboards for Manufacturers, Distributors, and Pharmacists.
+##  Key Features
 
-Low Latency: Optimized for the Polygon network to ensure fast and low-cost transactions.
+* **Immutable Tracking:** Every step of the medicine's journey is recorded on the blockchain.
+* **Anti-Counterfeit:** Real-time verification of drug authenticity for consumers and retailers.
+* **Role-Based Access:** Specialized dashboards for Manufacturers, Distributors, and Pharmacists.
+* **Low Latency:** Optimized for the Polygon network to ensure fast and low-cost transactions.
 
-Tech Stack
-Frontend: React.js, Tailwind CSS (Deployed on Vercel)
+##  Tech Stack
 
-Blockchain: Solidity, Polygon Amoy Testnet
+* **Frontend:** React.js, Tailwind CSS (Deployed on Vercel)
+* **Blockchain:** Solidity, Polygon Amoy Testnet
+* **Development Framework:** Hardhat 3 Beta
+* **Environment:** TypeScript, Ethers.js
 
-Development Framework: Hardhat 3 Beta
+##  Smart Contract Details
 
-Environment: TypeScript, Ethers.js
+* **Network:** Polygon Amoy Testnet
+* **Contract Address:** `0x3b06CFE0A3DB17E22A7E242858982F2991039Db3`
+* **Explorer:** [View on PolygonScan](https://amoy.polygonscan.com/address/0x3b06CFE0A3DB17E22A7E242858982F2991039Db3)
 
-Smart Contract Details
-Network: Polygon Amoy Testnet
+---
 
-Contract Address: 0x3b06CFE0A3DB17E22A7E242858982F2991039Db3
+##  Project Structure
+This project utilizes **Hardhat 3 Beta**, featuring a minimal setup with native TypeScript support.
+* `/contracts`: Solidity smart contracts for supply chain logic.
+* `/scripts`: Deployment and interaction scripts.
+* `/test`: Comprehensive test suites for contract security.
 
-Explorer: View on PolygonScan
-
-Getting Started
-Prerequisites
-Node.js (v18+)
-
-MetaMask (configured for Polygon Amoy Testnet)
-
-Installation
-Clone the repository:
-
-Bash
-
-git clone https://github.com/Chiranjib-x/TraceRx.git
-cd TraceRx
-Install dependencies:
-
-Bash
-
-npm install
-Compile Smart Contracts:
-
-Bash
-
-npx hardhat compile
-Run the Frontend:
-
-Bash
-
-npm run dev
-Project Structure
-This project utilizes the Hardhat 3 Beta, featuring a minimal setup with native TypeScript support.
-
-/contracts: Solidity smart contracts for supply chain logic.
-
-/scripts: Deployment and interaction scripts.
-
-/test: Comprehensive test suites for contract security.
-
-Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-Developed by Chiranjib Dash B.Tech CSE Core | VIT Vellore
+---
+**Developed by Chiranjib Dash** *B.Tech CSE Core | VIT Vellore*
