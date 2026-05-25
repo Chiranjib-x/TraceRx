@@ -23,7 +23,7 @@ function App() {
   const [status, setStatus] = useState("");
   const [batchData, setBatchData] = useState(null);
 
-  //  Force Polygon Amoy
+  //  Force Polygon Amoy (Cuz Metamask was using Ethereum by default)
   async function switchToAmoy() {
     if (!window.ethereum) return;
 
