@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+
 pragma solidity ^0.8.20;
 
 contract MedicineTrace {
@@ -7,7 +7,7 @@ contract MedicineTrace {
         string batchId;
         string medicineName;
         string manufacturer;
-        string ipfsHash;   // NEW
+        string ipfsHash;   
         address currentOwner;
         bool exists;
     }
@@ -21,7 +21,7 @@ contract MedicineTrace {
         string memory _batchId,
         string memory _medicineName,
         string memory _manufacturer,
-        string memory _ipfsHash   // NEW
+        string memory _ipfsHash   
     ) public {
         require(!batches[_batchId].exists, "Batch already exists");
 
