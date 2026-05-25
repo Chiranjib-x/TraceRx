@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(135deg, midnightblue, teal, darkslategray);
   color: white;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 .subtitle {
-  color: #ccc;
+  color: silver;
   margin-top: 5px;
   font-size: 14px;
 }
@@ -32,7 +32,7 @@ body {
   padding: 10px 18px;
   border: none;
   border-radius: 8px;
-  background: #00c6ff;
+  background: deepskyblue;
   color: black;
   font-weight: bold;
   cursor: pointer;
@@ -40,7 +40,7 @@ body {
 }
 
 .wallet-btn:hover {
-  background: #00aaff;
+  background: dodgerblue;
 }
 
 .dashboard {
@@ -76,7 +76,7 @@ body {
   padding: 12px;
   border: none;
   border-radius: 8px;
-  background: #00f5a0;
+  background: springgreen;
   color: black;
   font-weight: bold;
   cursor: pointer;
@@ -84,7 +84,7 @@ body {
 }
 
 .primary-btn:hover {
-  background: #00c78a;
+  background: mediumseagreen;
 }
 
 .verify-card {
@@ -96,7 +96,7 @@ body {
 }
 
 .result-section pre {
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   padding: 15px;
   border-radius: 8px;
   font-size: 13px;
@@ -108,8 +108,9 @@ body {
   margin-top: 50px;
   text-align: center;
   font-size: 14px;
-  color: #aaa;
+  color: gray;
 }
+
 .status-badge {
   margin-top: 15px;
   padding: 8px 15px;
@@ -120,12 +121,12 @@ body {
 }
 
 .verified {
-  background: #00f5a0;
+  background: springgreen;
   color: black;
 }
 
 .error {
-  background: #ff4d4d;
+  background: red;
   color: white;
 }
 
@@ -138,15 +139,15 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 8px 0;
-  background: rgba(255,255,255,0.05);
+  background: rgba(255, 255, 255, 0.05);
   padding: 8px;
   border-radius: 6px;
 }
 
 .loader {
   margin: 20px auto;
-  border: 6px solid rgba(255,255,255,0.1);
-  border-top: 6px solid #00f5a0;
+  border: 6px solid rgba(255, 255, 255, 0.1);
+  border-top: 6px solid springgreen;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -162,33 +163,34 @@ body {
   padding: 20px;
   text-align: center;
   font-size: 0.9rem;
-  color: #666;
+  color: dimgray;
 }
 
 .footer-link {
-  color: #8247e5; /* Polygon purple color */
+  color: blueviolet;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .footer-link:hover {
-  color: #6127c1;
+  color: darkorchid;
   text-decoration: underline;
 }
+
 .footer {
   margin-top: 50px;
   padding: 30px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid whitesmoke;
   text-align: center;
   font-family: 'Inter', sans-serif;
-  color: #555;
+  color: gray;
 }
 
 .github-link {
   display: inline-flex;
   align-items: center;
-  color: #24292e; /* GitHub Black */
+  color: black;
   text-decoration: none;
   font-weight: 600;
   padding: 5px 12px;
@@ -197,13 +199,13 @@ body {
 }
 
 .github-link:hover {
-  background-color: #f6f8fa;
-  color: #0969da; /* GitHub Blue */
+  background-color: ghostwhite;
+  color: dodgerblue;
   transform: translateY(-1px);
 }
 
 .heart {
-  color: #e25555;
+  color: crimson;
   display: inline-block;
   animation: pulse 1.5s infinite;
 }
